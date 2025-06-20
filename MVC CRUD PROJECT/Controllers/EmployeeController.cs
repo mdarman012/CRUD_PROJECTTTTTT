@@ -16,5 +16,13 @@ namespace MVC_CRUD_PROJECT.Controllers
         {
             return View();
         }
+        public IActionResult Delete()
+        {
+            return View();
+        }
+        public IActionResult actionResult()
+        {
+            return View();
+        }
     }
 }
